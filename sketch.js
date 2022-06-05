@@ -5,9 +5,14 @@ function setup() {
 }
 
 function draw() {
+  //　以下の３業はCCapureの設定
+  //https://note.com/ynsnkm/n/nce5f2bb33086 参照記事
   if(frameCount == 1){
     capturer.start();
   }
+  // ここまでがCCapureの設定
+
+  //******以下 p5.jsのエディタで作成したコードのコピペ */
   background(51);
 
   fill(255);
@@ -37,7 +42,11 @@ function draw() {
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);
-  
+
+  //*******ここまではp5.jsのエディタで作成したコード
+
+  //以下はCCapureの設定
+  //https://note.com/ynsnkm/n/nce5f2bb33086 参照記事
   if (frameCount < 60*4){　//4秒後Captureを停止する
    capturer.capture(canvas);
 
