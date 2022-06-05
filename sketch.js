@@ -5,14 +5,14 @@ function setup() {
 }
 
 function draw() {
-  //　以下の３業はCCapureの設定
-  //https://note.com/ynsnkm/n/nce5f2bb33086 参照記事
+  //　CCapure's setting__from here.
+  //https://note.com/ynsnkm/n/nce5f2bb33086 Reference Articles
   if(frameCount == 1){
     capturer.start();
   }
-  // ここまでがCCapureの設定
+  // CCapure's setting__so far.
 
-  //******以下 p5.jsのエディタで作成したコードのコピペ */
+  //****** Paste!!  p5.js editer code */
   background(51);
 
   fill(255);
@@ -43,10 +43,10 @@ function draw() {
   vertex(0, height);
   endShape(CLOSE);
 
-  //*******ここまではp5.jsのエディタで作成したコード
+  //******* p5.js editer code so for.
 
-  //以下はCCapureの設定
-  //https://note.com/ynsnkm/n/nce5f2bb33086 参照記事
+  //CCapure's setting___from here.
+  //https://note.com/ynsnkm/n/nce5f2bb33086 Reference Articles
   if (frameCount < 60*4){　//4秒後Captureを停止する
    capturer.capture(canvas);
 
