@@ -5,6 +5,9 @@ function setup() {
 }
 
 function draw() {
+  if(frameCount == 1){
+    capturer.start();
+  }
   background(51);
 
   fill(255);
@@ -34,4 +37,13 @@ function draw() {
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);
+  
+  if (frameCount < 60*4){　//4秒後Captureを停止する
+   capturer.capture(canvas);
+
+ }else if(frameCount == 60*4){
+
+   capturer.save();
+   capturer.stop();
+ }
 }
