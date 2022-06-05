@@ -8,17 +8,19 @@ A pre-configured code is provided for easy storage.
 
 # How to use
 * Create p5.js editer and Copy
-![スクリーンショット 2022-06-06 2.34.55.png](https://drive.google.com/uc?id=1k9IO2XPWRF5fetbnNbyKvLSm3wuTIPKl)
+<img width="688" alt="スクリーンショット 2022-06-06 2 34 55" src="https://user-images.githubusercontent.com/24947347/172063844-5e2b3a64-470e-4398-8018-9f57f694ef6b.png">
 
 * Paste!! p5.js code
-![スクリーンショット 2022-06-06 2.49.27.png](https://drive.google.com/uc?id=12LZ4-rpkK3ZXOfonunf_tP8FQqttNwd3)
+<img width="819" alt="スクリーンショット 2022-06-06 2 49 27" src="https://user-images.githubusercontent.com/24947347/172063854-8cbb8bf9-e40c-43f2-a198-5aa3ade2e4d6.png">
+
 
 * Play from the development screen.
-![スクリーンショット 2022-06-06 2.50.43.png](https://drive.google.com/uc?id=1xhjLlZ_i-vqqRXs9jXmhJuxpjBYtijtW)
+<img width="1196" alt="スクリーンショット 2022-06-06 2 50 43" src="https://user-images.githubusercontent.com/24947347/172063865-6b6c2f88-643d-451c-bb5a-60f9fe98a5e5.png">
 
 * You can also use the VSCode extension Live Preview.
-![スクリーンショット 2022-06-06 2.24.40.png](https://drive.google.com/uc?id=1bwSBbYmQ-C-HnfEClxsVtjj0sItUFnWv)
+<img width="726" alt="スクリーンショット 2022-06-06 2 24 40" src="https://user-images.githubusercontent.com/24947347/172063877-416fff17-e11e-482a-a5c6-1033965fbe43.png">
+
 
 * Automatically saved after a few minutes.
-![スクリーンショット 2022-06-06 2.46.30.png](https://drive.google.com/uc?id=1Eu82HHUlngKzcZwuuz0aqAMmKlwTeCwm)
+<img width="691" alt="スクリーンショット 2022-06-06 2 46 30" src="https://user-images.githubusercontent.com/24947347/172063893-b30c055c-b63d-4ed6-a421-2a2893e059c8.png">
 
