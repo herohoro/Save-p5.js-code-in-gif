@@ -1,4 +1,4 @@
-# Convert code created in p5.js to git and save it
+# Convert code created in p5.js to gif and save it
 Are you struggling to figure out how to save videos created with p5.js?  
 I relied on this article to set it up.
 https://note.com/ynsnkm/n/nce5f2bb33086  
