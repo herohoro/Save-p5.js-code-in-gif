@@ -1,3 +1,4 @@
+// ******* Paste!! p5.js editor code __before function draw content
 let yoff = 0.0; // 2nd dimension of perlin noise
 
 function setup() {
@@ -5,14 +6,18 @@ function setup() {
 }
 
 function draw() {
+
+// *** END *** p5.js editor code __before function draw content
+
+
   //　CCapure's setting__from here.
   //https://note.com/ynsnkm/n/nce5f2bb33086 Reference Articles
   if(frameCount == 1){
     capturer.start();
   }
-  // CCapure's setting__so far.
+  // END !!! CCapure's setting.
 
-  //****** Paste!!  p5.js editer code */
+  //****** Paste!!  p5.js editor code_function draw content */
   background(51);
 
   fill(255);
@@ -43,7 +48,7 @@ function draw() {
   vertex(0, height);
   endShape(CLOSE);
 
-  //******* p5.js editer code so for.
+  //*** END **** p5.js editor code 
 
   //CCapure's setting___from here.
   //https://note.com/ynsnkm/n/nce5f2bb33086 Reference Articles

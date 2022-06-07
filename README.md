@@ -7,11 +7,12 @@ It was quite a struggle for me, as I am studying programming as a hobby.
 A pre-configured code is provided for easy storage.
 
 # How to use
-* Create p5.js editer and Copy
+* Create sketch in p5.js editor and Copy
 https://p5js.org/examples/
 <img width="688" alt="スクリーンショット 2022-06-06 2 34 55" src="https://user-images.githubusercontent.com/24947347/172063844-5e2b3a64-470e-4398-8018-9f57f694ef6b.png">
 
 * Paste!! p5.js code
+
 <img width="819" alt="スクリーンショット 2022-06-06 2 49 27" src="https://user-images.githubusercontent.com/24947347/172063854-8cbb8bf9-e40c-43f2-a198-5aa3ade2e4d6.png">
 
 
