@@ -18,9 +18,9 @@ function draw() {
   // END !!! CCapure's setting.
 
   //****** Paste!!  p5.js editor code_function draw content */
-  background(51);
+  background(200,500,180);
 
-  fill(255);
+  fill(250,180,150);
   // We are going to draw a polygon out of the wave points
   beginShape();
 
@@ -43,7 +43,7 @@ function draw() {
     xoff += 0.05;
   }
   // increment y dimension for noise
-  yoff += 0.01;
+  yoff += 0.005;
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);
@@ -52,10 +52,10 @@ function draw() {
 
   //CCapure's setting___from here.
   //https://note.com/ynsnkm/n/nce5f2bb33086 Reference Articles
-  if (frameCount < 60*4){　//4秒後Captureを停止する
+  if (frameCount < 60*6){　//4秒後Captureを停止する
    capturer.capture(canvas);
 
- }else if(frameCount == 60*4){
+ }else if(frameCount == 60*6){
 
    capturer.save();
    capturer.stop();
